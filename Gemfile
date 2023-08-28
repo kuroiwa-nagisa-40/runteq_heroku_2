@@ -54,8 +54,9 @@ group :test do
   gem 'webdrivers'
 end
 
+# SQL用のgemをpgからmysql2へ変更する
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
